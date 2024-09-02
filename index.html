@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="container">
+                <div class="brand">
+                    <a href="#hero">موقعي الشخصي</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">نبذة عني</a></li>
+                    <li><a href="#projects">المشاريع</a></li>
+                    <li><a href="#contact">اتصل بي</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>مرحبًا بكم في موقعي الشخصي</h1>
+            <p>أنا مطور ويب متخصص في بناء مواقع ويب تفاعلية وعملية.</p>
+            <div class="hero-image">
+                <!-- Enhanced SVG or Image -->
+                <svg width="200" height="200" viewBox="0 0 200 200">
+                    <circle cx="100" cy="100" r="80" fill="#4CAF50">
+                        <animate attributeName="r" from="60" to="80" dur="1s" repeatCount="indefinite" />
+                    </circle>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>نبذة عني</h2>
+                <p>أنا [اسمك]، مطور ويب شغوف بتطوير الحلول الرقمية المبتكرة. لدي خبرة في HTML, CSS, JavaScript وأعمل حاليًا على مشاريع متنوعة تتعلق بتطوير التطبيقات الحديثة.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/developer.webp" alt="About Me Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>مشاريعي</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <div class="project-text">
+                        <h3>مشروع 1</h3>
+                        <p>وصف مختصر للمشروع الأول. يتضمن تفاصيل حول الهدف من المشروع، التكنولوجيا المستخدمة، والتحديات التي تم التغلب عليها.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/project.webp" alt="Project 1">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-text">
+                        <h3>مشروع 2</h3>
+                        <p>وصف مختصر للمشروع الثاني. يتضمن تفاصيل حول الهدف من المشروع، التكنولوجيا المستخدمة، والتحديات التي تم التغلب عليها.</p>
+                    </div>
+                    <div class="project-image">
+                        <img src="images/project.webp" alt="Project 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>اتصل بي</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">رسالتك:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>جميع الحقوق محفوظة © 2024</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
